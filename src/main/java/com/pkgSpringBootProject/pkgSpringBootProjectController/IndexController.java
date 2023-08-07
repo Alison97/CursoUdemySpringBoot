@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/app")
 public class IndexController {
 
-    @Value("${texto.indexcontroller.index.ti tulo}")
+    @Value("${texto.indexcontroller.index.titulo}")
     private  String textoIndex;
 
     @Value("${texto.indexcontroller.poblarUsuario.titulo}")
